@@ -1,0 +1,42 @@
+body {
+    background-color: red;
+}
+
+div {
+    text-align: center;
+    font-size: x-large;
+}
+
+div::after {
+    content: "Welcome to the demo";
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: purple;
+    }
+
+    div::after {
+        content: "Very small screen";
+    }
+}
+
+@media (min-width: 400px) and (max-width: 768px){
+    body {
+        background-color: aquamarine;
+    }
+
+    div::after {
+        content: "medium screen";
+    }
+}
+
+@media (768px >= width <= 1000px) {
+    body {
+        background-color: burlywood;
+    }
+
+    div::after {
+        content: "More ranges";
+    }
+}

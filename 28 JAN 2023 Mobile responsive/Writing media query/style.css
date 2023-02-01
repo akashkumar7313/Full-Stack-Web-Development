@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+    /* very small mobile phone, iphone se or smaller */
+    body {
+        background-color: red;
+    }
+
+    div::after {
+        content: "small phones";
+    }
+} 
+
+@media (min-width: 600px) {
+    /* Latest mobiles like iphone 14, 14pro sumsung devicess */
+    body {
+        background-color: aquamarine;
+    }
+
+    div::after {
+        content: "latest big phones";
+    }
+}
+
+@media (min-width: 768px) {
+    /* tablets in landscape */
+    body {
+        background-color: blue;
+    }
+
+    div::after {
+        content: "tablets";
+    }
+}
+
+@media (min-width: 992px) {
+    /* Laptops and bigger tablets */
+    body {
+        background-color: yellowgreen;
+    }
+
+    div::after {
+        content: "laptop and big tabs";
+    }
+}
+
+@media (min-width: 1200px){
+    /* bigger laptops and monitors */
+    body {
+        background-color: violet;
+    }
+
+    div::after {
+        content: "bigger screen";
+    }
+}
+
+div {
+    text-align: center;
+    font-size: x-large;
+}
