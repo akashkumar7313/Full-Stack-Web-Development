@@ -1,1 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #363636;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #363636;
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700px;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(18, 155, 155);
+    border: 1px solid black;
+}
+
+header {
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.search-field {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    padding: 4px 10px;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-left-section {
+    width: 60%;
+    padding: 0 8%;
+}
+
+.hero-left-section h1 {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+}
