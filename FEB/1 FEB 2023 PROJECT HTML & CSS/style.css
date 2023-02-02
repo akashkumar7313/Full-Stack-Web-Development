@@ -137,5 +137,14 @@ input {
 }
 
 footer {
-    
+    font-weight: 400;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
