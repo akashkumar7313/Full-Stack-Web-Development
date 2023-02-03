@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #F9F5ed;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -15,12 +16,14 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
+    margin-left: 170px;
 }
 
 nav ul li {
     list-style: none;
     margin-right: 5%;
     font-weight: 600;
+    
 }
 
 nav ul li img {
@@ -31,4 +34,48 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10%;
+    height: 85%;
+}
+
+.leftmain {
+    width: 40%;
+}
+
+.leftmain h1 {
+    font-size: 60px;
+}
+
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #F9F5ed;
+    background-color: #3b855b;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+
+.rightmain {
+    width: 60%;
+    padding-left: 7%;
+}
+
+a {
+    color: black;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:  #3b855b;
+}
+
+
+.rightmain .first2img img {
+    padding: 10px;
 }
