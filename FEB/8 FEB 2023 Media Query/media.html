@@ -13,6 +13,41 @@
         - Tablet Screen: 768px;
         - Mobile Screen: 425px;
         */
+        .container {
+            display: flex;
+        }
+
+        .box {
+            height: 350px;
+            width: 350px;
+            border: 2px solid black;
+            margin: 2px;
+        }
+
+        .box1 {
+            background-color: red;
+        }
+
+        .box3 {
+            background-color: yellow;
+        }
+
+        @media screen and (max-width: 768px){
+            .container { 
+                /* display: none; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+
+
+        }
     </style>
 </head>
 <body>
