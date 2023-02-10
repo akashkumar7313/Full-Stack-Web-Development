@@ -51,12 +51,38 @@ nav ul li {
     gap: 30px;
 }
 
-.left-side-1 {
+.left-line-1 {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
+    font-size: 30px;
+    display: flex;
     font-size: 30px;
 }
 
 .hello {
     width: 30px;
 }
+
+.left-side-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-side-2 h1 {
+    font-size: 60px;
+}
+
+.left-side-2 h2 {
+    font-size: 35px;
+    color: #c5c559;
+}
+
+.right-side img {
+    width: 30vw;
+} 
+
+/* Project Section */
