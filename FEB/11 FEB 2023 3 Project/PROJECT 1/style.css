@@ -368,3 +368,78 @@ main {
     width: 13px;
     height: 13px;
 }
+
+/* footer Section */
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 100px 0;
+    position: relative;
+}
+
+.footer-logo {
+    scale: 0.8;
+}
+
+footer ul li a {
+    font-size: 12px;
+    color: #BDC0C2;
+}
+
+footer ul li:first-child a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+footer ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.footer-subscription {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-subscription div:first-child {
+    background: #181a1b;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.footer-subscription div:first-child input {
+    border: none;
+    background: transparent;
+}
+
+.subscribe-button {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-button img {
+    scale: 0.8;
+}
+
+.subscribe-button p {
+    font-size: 12px;
+}
+
+.footer-subscription div:last-child img {
+    margin-right: 10px;
+    scale: 0.8;
+}
+
+.arrow-up {
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+}
