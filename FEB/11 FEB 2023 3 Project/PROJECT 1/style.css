@@ -440,6 +440,7 @@ footer ul li:first-child {
 .footer-subscription div:last-child img {
     margin-right: 10px;
     scale: 0.8;
+    cursor: pointer;
 }
 
 .arrow-up {
@@ -447,3 +448,9 @@ footer ul li:first-child {
     right: -160px;
     scale: 0.8;
 }
+
+/* Extra */
+button {
+    cursor: pointer;
+}
+
