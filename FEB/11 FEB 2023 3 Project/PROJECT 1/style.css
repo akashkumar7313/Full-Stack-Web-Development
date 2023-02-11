@@ -298,11 +298,15 @@ main {
 .product {
     display: flex;
     flex-direction: column;
+    margin: 0 150px;
 }
 
 .product-logo {
     display: flex;
     flex-direction: column;
+}
+
+.product-logo {
     scale: 0.3;
 }
 
