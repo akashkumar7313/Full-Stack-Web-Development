@@ -186,3 +186,56 @@ main {
 .specification-list-items div:first-child, .specification-list-items div:last-child {
     margin-left: 30px;
 }
+
+/* Case Section */
+.case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.case-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.case-item-img {
+    scale: 0.8;
+}
+
+.case-item div {
+    width: 20%;
+}
+
+.case-item div p {
+    margin-bottom: 20px;
+    
+}
+
+.case-item div p:first-child {
+    color: #bdc0c2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.case-item div p:last-child {
+    background: #1e1e21;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.group-img {
+    background: transparent;
+    scale: 0.8;
+}
+
