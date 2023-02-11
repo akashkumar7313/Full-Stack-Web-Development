@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f10;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0 15vw;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+}
+
+nav div {
+    display: flex;
+    gap: 40px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-right-section {
+    align-items: center;
+}
+
+.nav-button {
+    padding: 10px 40px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 300px;
+    border-color: #ffffff;
+}
+
+/* Main Hero section */
+main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+
+.mainImg {
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+
+.main {
+    margin-left: 180px;
+}
+
+.onEarImg {
+    margin-left: 50px;
+    width: 320px;
+}
+
+.main h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.main h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.main p {
+    font-size: 12px;
+    font-weight: 300;
+    width: 65%;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.shopping-bag-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e21;
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+.shopping-bag-section img {
+    width: 15px;
+    background-color: transparent;
+}
+
+.shopping-bag-section p {
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+}
+
+.shopping-bag-section span {
+    background-color: transparent;
+}
+
+/* Company Section */
+.social-media-section {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+    margin-bottom: 40px;
+}
+
+/* specification Section */
+.specification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specification-logo, .case-logo {
+    scale: 0.8;
+    margin-bottom: 20px;
+}
+
+.specification-list {
+    display: flex;
+}
+
+.specification-list img {
+    scale: 0.8;
+}
+
+.specification-list-items div {
+    margin-bottom: 20px;
+}
+
+.specification-list-items div img {
+    scale: 0.8;
+}
