@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    /* overflow: hidden; */
+    margin: auto;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+.home {
+    color: #20bc7e;
+    font-weight: 700;
+}
+
+/* Main Section */
