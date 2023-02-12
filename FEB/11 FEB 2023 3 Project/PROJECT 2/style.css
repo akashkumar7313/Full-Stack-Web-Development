@@ -1,3 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+button {
+    border: none;
+    background-color: #6663e9;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+body {
+    background-color: #f6f8fa;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./photos/mainBackground.png);
+    height: 125vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/* Nav bar */
+nav {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 120px;
+    height: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+hr {
+    margin: 0 100px;
+}
+
+/* Main Hero Section */
+main div {
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 85px;
+}
+
+main div h1 {
+    font-size: 72px;
+}
+
+main div p {
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 410px;
+}
+
+
+
 .card img {
     width: 200px;
     height: 200px;
