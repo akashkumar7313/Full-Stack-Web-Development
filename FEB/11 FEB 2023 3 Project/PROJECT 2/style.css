@@ -203,37 +203,38 @@ main div p {
     align-items: center;
     justify-content: center;
     margin-top: 250px;
-}
-
-.features-section div {
+  }
+  
+  .features-section div {
     width: 50%;
-}
-
-.features-section div:first-child img:first-child {
+  }
+  
+  .first-feature-section div:first-child img:first-child {
     position: absolute;
     left: -80px;
     z-index: -1;
     width: 726px;
     height: 456px;
-}
-
-.features-section div:first-child img:last-child {
+  }
+  
+  .features-section div:first-child img:last-child {
     position: relative;
     width: 405px;
     height: 405px;
     border-radius: 51px;
     bottom: 55px;
     left: 110px;
-}
-
-.features-section h1 {
-    font-size: 60px;
+  }
+  
+  /* designing the second div of feature box */
+  .features-section h1 {
     font-weight: 800;
-    letter-spacing: 0.01rem;
+    font-size: 60px;
+    letter-spacing: 0.01em;
     margin-bottom: 30px;
-}
-
-.features-section p {
+  }
+  
+  .features-section p {
     font-weight: 500;
     font-size: 18px;
     color: #585c65;
@@ -246,3 +247,158 @@ main div p {
   }
 
   /* Second Features section */
+  .second-feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .second-feature-section div {
+    width: 50%;
+  }
+  
+  .second-feature-section div:last-child {
+      position: relative;
+  }
+  
+  .second-feature-section div:last-child img:first-child {
+    position: absolute;
+    right: 0;
+    width: 726px;
+    height: 456px;
+    bottom: -220px;
+  }
+  
+  .second-feature-section div:last-child img:last-child {
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    right: 135px;
+    bottom: -110px;
+  }
+  
+  .second-feature-section div:first-child {
+    padding: 0 50px;
+  }
+  
+  .second-feature-section div:first-child h1 {
+    width: 90%;
+  }
+
+  
+/* designing the newsletter section */
+.newsletter {
+    margin: 100px 70px;
+    background: #6663e9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .newsletter h1 {
+    font-weight: 800;
+    font-size: 60px;
+  }
+  
+  .newsletter p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 55%;
+  }
+  
+  /* designing the form */
+  .newsletter form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .newsletter form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+  }
+  
+  .newsletter form input {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .newsletter form button {
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 174px;
+    height: 61px;
+    color: #6663e9;
+  }
+  
+  /* designing the footer area */
+  footer {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  
+  footer div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  footer div:first-child img {
+    width: 150px;
+  }
+  
+  footer div:first-child div img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+  }
+  
+  footer div:first-child p {
+    width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  /* designing the footer links */
+  .footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+  }
+  
+  .footer-links-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links-content ul li a {
+    color: black;
+  }
+  
+  .footer-links-content ul li:first-child {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .footer-links-content ul li{
+      margin-bottom: 25px;
+  }
