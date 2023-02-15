@@ -58,3 +58,27 @@ if (trafficLight === "red") {
     console.log("Signal was broken, save youself");
 }
 
+let role = "user"
+
+switch (role) {
+    case "user":
+        console.log("You are a normal visitor of website");
+        break;
+    case "admin":
+        console.log("You can do anything on website");
+        break;
+    case "faculty":
+        console.log("You can creat/delete lectures");
+        break;
+    case "ta":
+        console.log("You can upload lecture");
+        break;
+    default:
+        break;
+}
+
+// Turnerry Operator
+
+let isUserLogginIn = true;
+
+isUserLogginIn ? console.log("when value is true") : console.log("when value is false");
