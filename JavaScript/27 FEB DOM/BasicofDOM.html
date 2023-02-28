@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- ID -->
+    <p id="prag">Namaste</p>
+
+    <!-- Class -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+
+    <!-- Tag Name -->
+    <h4>Hello</h4>
+    <h4>Namaste</h4>
+    <h4>Hola</h4>
+
+    <!-- Query Selector -->
+    <h2>Hello</h2>
+    <h2 class="class">Namaste</h2>
+    <h2 id="ids">Hola</h2>
+
+    <script>
+        // ID 
+        let prag = document.getElementById("prag");
+        console.log(prag.innerText);
+
+        // Class
+        let tech = document.getElementsByClassName("tech");
+        console.log(tech[1].innerText);
+        tech[2].innerText = "Nodejs";
+
+        // Tag Name
+        let tagname = document.getElementsByTagName("h4");
+        console.log(tagname);
+
+    </script>
+</body>
+</html>
