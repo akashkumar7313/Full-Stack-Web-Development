@@ -24,7 +24,7 @@
 
     <!-- Query Selector -->
     <h2>Hello</h2>
-    <h2 class="class">Namaste</h2>
+    <h2 class="classs">Namaste</h2>
     <h2 id="ids">Hola</h2>
 
     <script>
@@ -39,8 +39,15 @@
 
         // Tag Name
         let tagname = document.getElementsByTagName("h4");
-        console.log(tagname);
+        console.log(tagname[2]);
+        tagname[2].style.color = "red";
 
+        // Query Selector
+        let qs = document.querySelector(".classs");
+        console.log(qs);
+        // qs.className = "prem";
+        qs.classList = "prem pw pwskills";
+        qs.setAttribute("title","PWskills");
     </script>
 </body>
 </html>
