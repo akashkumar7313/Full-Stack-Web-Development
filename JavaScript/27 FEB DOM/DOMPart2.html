@@ -24,6 +24,13 @@
         document.body.appendChild(title);
 
         // Removechild
+        let ul = document.querySelector("ul");
+        console.log(ul);
+        let lists = document.querySelectorAll("li");
+        console.log(lists);
+        for(list of lists){
+            ul.removeChild(list);
+        }
     </script>
 </body>
 </html>
