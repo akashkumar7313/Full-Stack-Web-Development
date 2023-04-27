@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Part 2</title>    
+</head>
+<body>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    
+    <sCript>
+        // Create Element using JavaScript
+        let title = document.createElement("h1");
+        title.className = "pwskills";
+        title.style.fontSize = "25px";
+        title.style.color = "red";
+        title.textContent = "PW SKILLS, Namaste";
+        console.log(title);
+        document.body.appendChild(title);
+
+        // Remove Child
+        let ul = document.querySelector("ul");
+        console.log(ul);
+        let lists = document.querySelectorAll("li"); // This will help to select all the Li's
+        console.log(lists);
+        for(lists of lists) {
+            ul.removeChild(lists);
+        }
+    </sCript>
+</body>
+</html>

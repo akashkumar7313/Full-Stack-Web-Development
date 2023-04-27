@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Part 1</title>
+</head>
+<body>
+    <!-- ID -->
+    <p id="prag"><span>Hello</span> Namaste</p>
+
+    <!-- Class -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul> 
+
+    <!-- Tag Name -->
+    <h4>Hello</h4>
+    <h4>Namaste</h4>
+    <h4>Hola</h4>
+
+    <!-- Query Selector -->
+    <h2>Hello</h2>
+    <h2 class="classs">Namaste</h2>
+    <h2 id="id">Hola</h2>
+
+    <script>
+        //ID
+        let prag = document.getElementById("prag");
+        console.log(prag.innerText); // This will print Hello Namaste
+        console.log(prag.innerHTML); // This will print <span>Hello</span> Namaste 
+
+        //Class
+        let tech = document.getElementsByClassName("tech");
+        console.log(tech[1].innerText); // This will give you Two output
+
+        tech[2].innerText = "NodeJs"; // Updating the inner text in line three
+        console.log(tech[2].innerHTML);
+
+        // Tag Name
+        let tagName = document.getElementsByTagName("h4");
+        console.log(tagName[2]); // Here we will get all the h4's
+        // tagName[2].innerText = "Hi"; // Here we are updating after targeting a single h4
+        tagName[2].sytle.color = "red";
+
+        // Query Selector
+        let qs = document.querySelector(".classs"); // tagname, .class, #id we can pass anything like this in 
+        console.log(qs);
+        // qs.className = "anurag"  // updating the className
+        qs.classList = "anurag pwskills pw" // classList helps in give multiple class names at once
+        qs.setAttribute("title","PWskills"); // How to add the attributes
+
+    </script>
+</body>
+</html>
