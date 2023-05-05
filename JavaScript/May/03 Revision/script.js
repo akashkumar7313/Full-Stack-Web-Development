@@ -57,7 +57,14 @@ console.log(arr2.flat(3)) // output - [ 0, 1, 2, 3, 4 ]
 const array1 = [1,4,9,16];
 // Pass a function to map
 const map1 = array1.map(x => x * 2);
-console.log(map1); 
+console.log(map1); // output - [ 2, 8, 18, 32 ] 
+
+// forEach() - ForEach method executes a provided function once for each array element.
+const array2= ['a','b','c'];
+array2.forEach(element => console.log(element)); // output - 'a'  'b'  'c' (each in new line)
+
+
+
 
 
 
