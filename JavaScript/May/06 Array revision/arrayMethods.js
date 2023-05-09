@@ -28,3 +28,4 @@ console.log(rev); // output - [ 7, 6, 5, 4, 3, 2, 1 ]
 // array.splice(start, deletecount, i1, i2,....);
 const removed = x.splice(2,2,0,0,0); // x.splice method helps to remove elements from between of the array
 console.log(x,removed); // output - [ 7, 6, 0, 0, 0, 3, 2, 1 ] [ 5, 4 ]
+
